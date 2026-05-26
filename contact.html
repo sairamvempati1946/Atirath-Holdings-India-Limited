@@ -218,9 +218,11 @@
                 transform: none !important;
                 width: 100%;
             }
+
             .dropdown-menu li .dropdown-item {
                 padding-left: 30px;
             }
+
             .navbar-nav .dropdown-toggle::after {
                 float: right;
                 margin-top: 8px;
@@ -301,7 +303,7 @@
 
         .office-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 30px;
         }
 
@@ -382,12 +384,6 @@
 
         @media (max-width: 992px) {
             .office-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 576px) {
-            .office-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -452,7 +448,8 @@
             margin-bottom: 5px;
         }
 
-        .info-content p, .info-content a {
+        .info-content p,
+        .info-content a {
             color: var(--gray-text);
             text-decoration: none;
             font-size: 0.9rem;
@@ -519,7 +516,8 @@
             color: #e74c3c;
         }
 
-        .form-control, .form-select {
+        .form-control,
+        .form-select {
             width: 100%;
             padding: 12px 15px;
             border: 1px solid #e0e0e0;
@@ -529,7 +527,8 @@
             font-size: 0.95rem;
         }
 
-        .form-control:focus, .form-select:focus {
+        .form-control:focus,
+        .form-select:focus {
             outline: none;
             border-color: var(--logo-green);
             box-shadow: 0 0 0 3px rgba(46, 158, 31, 0.1);
@@ -588,7 +587,9 @@
         }
 
         @media (max-width: 768px) {
-            .contact-form, .contact-info {
+
+            .contact-form,
+            .contact-info {
                 padding: 25px;
             }
         }
@@ -791,23 +792,29 @@
                 height: 45px;
                 font-size: 25px;
             }
+
             .scrollup {
                 width: 40px;
                 height: 40px;
             }
+
             .footer-bottom {
                 flex-direction: column;
                 text-align: center;
             }
+
             .footer-widget {
                 text-align: center;
             }
+
             .social-box {
                 justify-content: center;
             }
+
             .list-link {
                 text-align: center;
             }
+
             .section-header h2 {
                 font-size: 1.8rem;
             }
@@ -818,12 +825,15 @@
                 justify-content: center;
                 margin-top: 10px;
             }
+
             .navbar-nav {
                 padding: 15px 0;
             }
+
             .navbar-nav .nav-link {
                 padding: 10px 0;
             }
+
             .dropdown-menu {
                 background: var(--logo-green);
                 padding-left: 20px;
@@ -848,13 +858,16 @@
                     <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
                         <div class="d-flex gap-2 justify-content-start flex-wrap">
                             <div class="header_btn py-1 px-3 rounded">
-                                <i class="fa-solid fa-square-phone"></i> <a href="tel:+919553774933">For Plant Inquiry</a>
+                                <i class="fa-solid fa-square-phone"></i> <a href="tel:+919553774933">For Plant
+                                    Inquiry</a>
                             </div>
                             <div class="header_btn py-1 px-3 rounded">
-                                <i class="fa-solid fa-square-phone"></i> <a href="tel:+919553774933">For Partnership</a>
+                                <i class="fa-solid fa-square-phone"></i> <a href="tel:+919491483933">For Partnership</a>
                             </div>
-                            <a href="inquiry.html" class="theme-btn" onclick="scrollToForm()">Get in Touch <span class="icon fas fa-angle-double-right"></span></a>
-                            <a href="careers.html" class="theme-btn" onclick="scrollToForm()">Apply Now <span class="icon fas fa-angle-double-right"></span></a>
+                            <a href="inquiry.html" class="theme-btn" onclick="scrollToForm()">Get in Touch <span
+                                    class="icon fas fa-angle-double-right"></span></a>
+                            <a href="careers.html" class="theme-btn" onclick="scrollToForm()">Apply Now <span
+                                    class="icon fas fa-angle-double-right"></span></a>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
@@ -876,10 +889,12 @@
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid p-0">
                         <a class="navbar-brand" href="index.html">
-                            <img src="./logo.svg" alt="Atirath Holdings" class="img-fluid" style="width: 150px; height: auto;"
+                            <img src="./logo.svg" alt="Atirath Holdings" class="img-fluid"
+                                style="width: 150px; height: auto;"
                                 onerror="this.src='https://placehold.co/150x50/2E9E1F/white?text=ATIRATH'">
                         </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#main_nav">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="main_nav">
@@ -888,21 +903,27 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="companyoverview.html">Company Overview</a></li>
+                                        <li><a class="dropdown-item" href="companyoverview.html">Company Overview</a>
+                                        </li>
                                         <li><a class="dropdown-item" href="leadership.html">Leadership Team</a></li>
                                         <li><a class="dropdown-item" href="milestones.html">Milestones</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Business Verticals</a>
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Business
+                                        Verticals</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="cbgproductionplant.html">CBG Production Plant</a></li>
-                                        <li><a class="dropdown-item" href="napiergrass.html">Napier Grass Cultivation</a></li>
-                                        <li><a class="dropdown-item" href="portfolio.html">Green Energy Portfolio</a></li>
+                                        <li><a class="dropdown-item" href="cbgproductionplant.html">CBG Production
+                                                Plant</a></li>
+                                        <li><a class="dropdown-item" href="napiergrass.html">Napier Grass
+                                                Cultivation</a></li>
+                                        <li><a class="dropdown-item" href="portfolio.html">Green Energy Portfolio</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">News & Insight</a>
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">News &
+                                        Insight</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="blog.html">Blog</a></li>
                                         <li><a class="dropdown-item" href="careers.html">Career News</a></li>
@@ -911,7 +932,8 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="inquiry.html">Inquiry</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#" onclick="scrollToForm()">Join Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#" onclick="scrollToForm()">Join Us</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -925,7 +947,8 @@
         <div class="auto-container">
             <div class="hero-content">
                 <h1>Contact Us</h1>
-                <p>Get in touch with our team for any inquiries about CBG plants, partnerships, or investments. We're here to help you.</p>
+                <p>Get in touch with our team for any inquiries about CBG plants, partnerships, or investments. We're
+                    here to help you.</p>
             </div>
         </div>
     </section>
@@ -938,53 +961,44 @@
                 <div class="section-subtitle">Visit us at our locations across India</div>
             </div>
             <div class="office-grid">
-                <!-- Registered Office -->
+                <!-- Registered Office / Corporate Office -->
                 <div class="office-card">
                     <div class="office-icon">
                         <i class="fas fa-building"></i>
                     </div>
-                    <h3 class="office-title">Registered Office</h3>
+                    <h3 class="office-title">Registered & Corporate Office</h3>
                     <div class="office-address">
-                        Unit No. B2-205, Boomerang Building,<br>
-                        Chandivali Farm Road, Andheri East,<br>
-                        Mumbai, Maharashtra - 400072
+                        Jyothi Elegance, 502, 5th Floor,<br>
+                        Road No 11, Phase 3, Kavuri Hills, Madhapur,<br>
+                        Hyderabad, Telangana - 500033
                     </div>
                     <ul class="office-contact">
-                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+918800599662">+91 8800599662</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@nexgenenergia.com">info@nexgenenergia.com</a></li>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+919553774933">+91 95537 74933 (Plant
+                                Inquiry)</a></li>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+919491483933">+91 94914 83933
+                                (Partnership)</a></li>
+                        <li><i class="fas fa-envelope"></i> <a
+                                href="mailto:info@atirathholdings.com">info@atirathholdings.com</a></li>
+                        <li><i class="fas fa-envelope"></i> <a
+                                href="mailto:business@atirathholdings.com">business@atirathholdings.com</a></li>
                     </ul>
                 </div>
 
-                <!-- Corporate Office -->
+                <!-- Project Office / CBG Plant Location -->
                 <div class="office-card">
                     <div class="office-icon">
-                        <i class="fas fa-city"></i>
+                        <i class="fas fa-industry"></i>
                     </div>
-                    <h3 class="office-title">Corporate Office</h3>
+                    <h3 class="office-title">Project Office (CBG Plant)</h3>
                     <div class="office-address">
-                        F-433 F-Block Sector 63,<br>
-                        Noida, Uttar Pradesh - 201301
+                        CBG Greenfield Project Site,<br>
+                        Karimnagar District,<br>
+                        Telangana
                     </div>
                     <ul class="office-contact">
-                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+918527561018">+91 8527561018</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:business@nexgenenergia.com">business@nexgenenergia.com</a></li>
-                    </ul>
-                </div>
-
-                <!-- Dubai Office -->
-                <div class="office-card">
-                    <div class="office-icon">
-                        <i class="fas fa-globe-asia"></i>
-                    </div>
-                    <h3 class="office-title">Dubai Office</h3>
-                    <div class="office-address">
-                        12A03, Wing B, Executive Bay,<br>
-                        Business Bay, P.O. Box 235259,<br>
-                        Dubai, UAE
-                    </div>
-                    <ul class="office-contact">
-                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+971507884570">+971 50 788 4570</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:business@nexgenenergia.com">business@nexgenenergia.com</a></li>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+919553774933">+91 95537 74933</a></li>
+                        <li><i class="fas fa-envelope"></i> <a
+                                href="mailto:projects@atirathholdings.com">projects@atirathholdings.com</a></li>
                     </ul>
                 </div>
             </div>
@@ -1004,8 +1018,9 @@
                         </div>
                         <div class="info-content">
                             <h4>Phone</h4>
-                            <p><a href="tel:+919553774933">+91 9553774933</a><br>
-                            <a href="tel:+919553774933">+91 9553774933 (Support)</a></p>
+                            <p><a href="tel:+919553774933">+91 95537 74933</a> (Plant Inquiry)<br>
+                                <a href="tel:+919491483933">+91 94914 83933</a> (Partnership)
+                            </p>
                         </div>
                     </div>
                     <div class="info-item">
@@ -1015,7 +1030,8 @@
                         <div class="info-content">
                             <h4>Email</h4>
                             <p><a href="mailto:info@atirathholdings.com">info@atirathholdings.com</a><br>
-                            <a href="mailto:sales@atirathholdings.com">sales@atirathholdings.com</a></p>
+                                <a href="mailto:business@atirathholdings.com">business@atirathholdings.com</a>
+                            </p>
                         </div>
                     </div>
                     <div class="info-item">
@@ -1025,7 +1041,7 @@
                         <div class="info-content">
                             <h4>Business Hours</h4>
                             <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
-                            Saturday: 10:00 AM - 2:00 PM</p>
+                                Saturday: 10:00 AM - 2:00 PM</p>
                         </div>
                     </div>
                     <div class="social-links">
@@ -1047,7 +1063,7 @@
                         <input type="hidden" name="to_email" value="vsv.vempati@gmail.com">
                         <input type="hidden" id="replyToField" name="replyto" value="">
                         <input type="checkbox" name="botcheck" style="display: none;">
-                        
+
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -1085,7 +1101,8 @@
                         </div>
                         <div class="form-group">
                             <label>Message <span class="required">*</span></label>
-                            <textarea class="form-control" name="message" id="message" rows="4" placeholder="Please provide details about your inquiry..." required></textarea>
+                            <textarea class="form-control" name="message" id="message" rows="4"
+                                placeholder="Please provide details about your inquiry..." required></textarea>
                         </div>
                         <button type="submit" class="submit-btn" id="submitBtn">
                             <i class="fas fa-paper-plane"></i> Send Message
@@ -1110,7 +1127,10 @@
                 <div class="section-subtitle">Our corporate headquarters location</div>
             </div>
             <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.511719134733!2d78.389247!3d17.439178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb96c0f9cfcbe7%3A0x5e7c3e5e8e5e5e5e!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.360133119516!2d78.39346847414257!3d17.44246890121798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91a0182818cd%3A0xfa46d37f52136585!2sAtirath%20Holdings%20India%20Ltd!5e0!3m2!1sen!2sin!4v1779768127214!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
@@ -1135,10 +1155,14 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <div class="footer-widget">
                         <div class="logo mb-3">
-                            <img src="./logo.svg" alt="Atirath" class="img-fluid" style="width: 160px; height: auto; filter: brightness(0) invert(1);"
+                            <img src="./logo.svg" alt="Atirath" class="img-fluid"
+                                style="width: 160px; height: auto; filter: brightness(0) invert(1);"
                                 onerror="this.style.display='none'">
                         </div>
-                        <div class="text text-start text-white opacity-75">Atirath Holdings India Limited is a clean fuel energy company committed to redefining the manufacturing & distribution of alternative future energy. We're driving the future energy revolution for a green planet & energy independence.</div>
+                        <div class="text text-start text-white opacity-75">Atirath Holdings India Limited is a clean
+                            fuel energy company committed to redefining the manufacturing & distribution of alternative
+                            future energy. We're driving the future energy revolution for a green planet & energy
+                            independence.</div>
                         <ul class="social-box">
                             <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
@@ -1153,9 +1177,9 @@
                         <h5 class="text-white">Quick Links</h5>
                         <ul class="list-link">
                             <li><a href="index.html">CBG Manufacturing Plant</a></li>
-                            <li><a href="#">CBG Retail Outlet</a></li>
-                            <li><a href="#">Napier Grass</a></li>
-                            <li><a href="#">SATAT Scheme</a></li>
+                            <li><a href="cbgproductionplant.html">CBG Retail Outlet</a></li>
+                            <li><a href="napiergrass.html">Napier Grass</a></li>
+                            <li><a href="satatscheme.html">SATAT Scheme</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1216,15 +1240,15 @@
         const replyToField = document.getElementById('replyToField');
 
         if (contactForm) {
-            contactForm.addEventListener('submit', function(e) {
+            contactForm.addEventListener('submit', function (e) {
                 e.preventDefault();
-                
+
                 const fullName = document.getElementById('fullName').value.trim();
                 const email = document.getElementById('email').value.trim();
                 const phone = document.getElementById('phone').value.trim();
                 const subjectType = document.getElementById('subjectType').value;
                 const message = document.getElementById('message').value.trim();
-                
+
                 if (fullName === '') { showError('Please enter your full name'); return; }
                 if (email === '') { showError('Please enter your email address'); return; }
                 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -1233,39 +1257,39 @@
                 if (phone.length < 10) { showError('Please enter a valid 10-digit phone number'); return; }
                 if (subjectType === '') { showError('Please select a subject'); return; }
                 if (message === '') { showError('Please enter your message'); return; }
-                
+
                 if (replyToField) replyToField.value = email;
-                
+
                 submitBtn.disabled = true;
                 submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Sending...';
-                
+
                 const formData = new FormData(contactForm);
-                
+
                 fetch('https://api.web3forms.com/submit', {
                     method: 'POST',
                     body: formData
                 })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.success) {
-                        showSuccess();
-                        contactForm.reset();
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            showSuccess();
+                            contactForm.reset();
+                            submitBtn.disabled = false;
+                            submitBtn.innerHTML = '<i class="fas fa-paper-plane me-2"></i> Send Message';
+                        } else {
+                            showError('Something went wrong. Please try again.');
+                            submitBtn.disabled = false;
+                            submitBtn.innerHTML = '<i class="fas fa-paper-plane me-2"></i> Send Message';
+                        }
+                    })
+                    .catch(error => {
+                        showError('Network error. Please try again.');
                         submitBtn.disabled = false;
                         submitBtn.innerHTML = '<i class="fas fa-paper-plane me-2"></i> Send Message';
-                    } else {
-                        showError('Something went wrong. Please try again.');
-                        submitBtn.disabled = false;
-                        submitBtn.innerHTML = '<i class="fas fa-paper-plane me-2"></i> Send Message';
-                    }
-                })
-                .catch(error => {
-                    showError('Network error. Please try again.');
-                    submitBtn.disabled = false;
-                    submitBtn.innerHTML = '<i class="fas fa-paper-plane me-2"></i> Send Message';
-                });
+                    });
             });
         }
-        
+
         function showSuccess() {
             successMsg.style.display = 'block';
             errorMsg.style.display = 'none';
@@ -1273,7 +1297,7 @@
                 successMsg.style.display = 'none';
             }, 5000);
         }
-        
+
         function showError(msg) {
             errorMsg.textContent = msg;
             errorMsg.style.display = 'block';
@@ -1314,7 +1338,7 @@
 
         // Dropdown functionality
         document.querySelectorAll('.dropdown-toggle').forEach(dropdown => {
-            dropdown.addEventListener('click', function(e) {
+            dropdown.addEventListener('click', function (e) {
                 e.preventDefault();
                 const parent = this.closest('.dropdown');
                 if (parent) {
@@ -1331,7 +1355,7 @@
             });
         });
 
-        document.addEventListener('click', function(e) {
+        document.addEventListener('click', function (e) {
             if (!e.target.closest('.dropdown')) {
                 document.querySelectorAll('.dropdown-menu').forEach(menu => menu.style.display = 'none');
             }
